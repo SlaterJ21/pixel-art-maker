@@ -1,0 +1,98 @@
+.container {
+  display: block;
+  margin: 50px 10%;
+  width: 1000px;
+  height: 600px;
+  border: black solid 1px;
+  line-height: 0px;
+}
+
+.pixel {
+display: inline-block;
+width: 20px;
+height: 20px;
+border: black solid 1px;
+margin: 2px;
+background-color: white;
+}
+
+.palette {
+  display: block;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 15px;
+  width: 950px;
+  height: 110px;
+  border: black solid 1px;
+}
+
+.colorPaletteRed{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: red;
+}
+
+.colorPaletteBlue{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: blue;
+}
+
+.colorPaletteGreen{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: green;
+}
+
+.colorPalettePurple{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: purple;
+}
+.colorPaletteRed{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: red;
+}
+
+.colorPaletteBlue{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: blue;
+}
+
+.colorPaletteGreen{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: green;
+}
+
+.colorPalettePurple{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  margin: 2px;
+  background-color: purple;
+}

@@ -1,0 +1,205 @@
+.container {
+  height: 90%;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 10% 70% 10%;
+  grid-template-columns: 15% 70% 15%;
+  border: 2px solid black;
+  margin: 2% auto;
+  border-radius: 5px;
+}
+
+
+.canvas {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  height: 75vh;
+  width: 90%;
+  max-width: 95%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5% auto;
+  display: inline-block;
+  padding: 10px 1%;
+  overflow: hidden;
+}
+
+.pixel {
+height: 10px;
+width: 10px;
+border: 1px solid black;
+float: left;
+}
+
+
+.palette {
+  display: grid;
+  border: black solid 1px;
+  grid-row: 1 / 4;
+  margin: 10%;
+  border-radius: 5px;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding: 15% 5%;
+
+}
+
+.right {
+grid-column: 3 / 4;
+}
+
+.left {
+grid-column: 1 / 2;
+}
+
+.color {
+  border: black solid 1px;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.red {
+  background-color: red;
+}
+
+.darkOrange {
+  background-color: darkorange;
+}
+
+.orangeRed {
+  background-color: orangered;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.khaki {
+  background-color: khaki;
+}
+
+.moccasin {
+  background-color: moccasin;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.greenYellow{
+  background-color: greenyellow;
+}
+
+.lawnGreen {
+  background-color: lawngreen;
+}
+
+.mediumSeaGreen {
+  background-color: mediumseagreen;
+}
+
+.green {
+  background-color: green;
+}
+
+.mediumAquamarine {
+  background-color: mediumaquamarine;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.cadetBlue {
+  background-color: cadetblue;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.slateBlue {
+  background-color: slateblue;
+}
+
+.blueViolet {
+  background-color: blueviolet;
+}
+
+.indigo {
+  background-color: indigo;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.darkViolet {
+  background-color: darkviolet;
+}
+
+.darkMagenta {
+  background-color: darkmagenta;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.lavender {
+  background-color: lavender;
+}
+
+.lightPink {
+  background-color: lightPink;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.burlyWood {
+  background-color: burlywood;
+}
+
+.peru {
+  background-color: peru;
+}
+
+.saddleBrown {
+  background-color: saddlebrown;
+}
+
+.crimson {
+  background-color: crimson;
+}
+
+.fireBrick {
+  background-color: firebrick;
+}
+
+.lightCyan {
+  background-color: lightcyan;
+}
+
+.lightSkyBlue {
+  background-color: lightskyblue;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
